@@ -4,7 +4,7 @@ import logo from "../../assets/Img/Logo.png"
 const Nav = () => {
   return (
     <div>
-       <div className='flex  bg-transparent justify-between fixed z-10 text-white w-screen'>
+       <div className='flex  bg-transparent justify-between absolute z-10 text-white w-screen'>
            <div className='w-full flex items-center '>
             <img src={logo} className='object-fit'/>
             <p className="text-[#12CC02] text-[32px] font-[700]">Serve +</p>
